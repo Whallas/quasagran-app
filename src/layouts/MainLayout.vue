@@ -12,7 +12,7 @@
           dense
         />
 
-        <q-separator class="medium-screen-only" vertical spaced />
+        <q-separator class="large-screen-only" vertical spaced />
 
         <q-toolbar-title class="text-grand-hotel text-bold">
           Quasagram
@@ -65,7 +65,7 @@ export default {
 
 .q-toolbar__title
   font-size: 30px
-  @media (max-width: $breakpoint-sm-max)
+  @media (max-width: $breakpoint-xs-max)
     text-align: center
 
   .q-footer
